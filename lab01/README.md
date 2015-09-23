@@ -11,4 +11,5 @@ Môn học: Kiểm thử và đảm bảo chất lượng phần mềm
   - Chương trình tìm số nguyên tố 
   - Công cụ sinh luông điều kiển Visustin V7.10
   - Công cụ kiểm tra test case: QUNIT
-3. Kết quả, xem file source
+3. Kết quả
+  Các file kèm theo
