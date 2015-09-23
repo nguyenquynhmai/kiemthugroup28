@@ -7,14 +7,12 @@
   <script src="qunit-1.19.0.js"></script>
   <script>
   	QUnit.test("isPrime", function( assert ){
-  		assert.equal(isPrime(-45), false);
-  		assert.equal(isPrime(0), false);
-  		assert.equal(isPrime(1), true);
   		assert.equal(isPrime(2), true);
   		assert.equal(isPrime(4), false);
-  		assert.equal(isPrime(26), false);
-  		assert.equal(isPrime(113), true);
-  		assert.equal(isPrime(157), true);
+  		assert.equal(isPrime(9), false);
+  		assert.equal(isPrime(23), true);
+  		assert.equal(isPrime(125), false);
+  		assert.equal(isPrime(3), true);
   	});
   </script>
 </head>
