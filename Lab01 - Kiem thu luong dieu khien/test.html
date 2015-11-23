@@ -1,0 +1,24 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>QUnit Example</title>
+  <link rel="stylesheet" href="qunit-1.19.0.css">
+  <script src="script.js"></script>
+  <script src="qunit-1.19.0.js"></script>
+  <script>
+  	QUnit.test("isPrime", function( assert ){
+  		assert.equal(isPrime(2), true);
+  		assert.equal(isPrime(4), false);
+  		assert.equal(isPrime(9), false);
+  		assert.equal(isPrime(23), true);
+  		assert.equal(isPrime(125), false);
+  		assert.equal(isPrime(3), true);
+  	});
+  </script>
+</head>
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture"></div>
+  
+</body>
+</html>

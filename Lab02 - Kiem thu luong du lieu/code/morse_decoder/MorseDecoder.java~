@@ -1,0 +1,17 @@
+public class MorseDecoder {
+    public static String Decode (String input) {
+	String result = "";
+	String currentString = "";
+	char currentChar = '';
+	int count = 0;
+	int flag = false;
+        for (int i = 0; i < input.length (); i++) {
+	    currentChar = input.charAt (i);
+	    if (currentChar.equals (' ')) {
+		count++;
+	    }else{
+		currentString += currentChar;
+	    }
+	}
+    }
+}
